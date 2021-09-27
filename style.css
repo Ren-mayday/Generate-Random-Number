@@ -1,7 +1,61 @@
 body {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  place-items: center;
-  margin: 0;
+  background-image: url(img/pexels-pavel-danilyuk.jpg);
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+.minimum-number,
+.maximum-number {
+  height: 150px;
+  width: 350px;
+  background: #000000d0;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+#maximum,
+#minimum {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 18px;
+  background: #7c7c7c2b;
+  color: white;
+  font-size: 15px;
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+#generateButton {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+#generateButton:hover {
+  background: #7c7c7c6b;
+}
+
+#result {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-top: 0%;
 }

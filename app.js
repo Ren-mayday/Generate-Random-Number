@@ -1,10 +1,8 @@
 window.onload = function () {
-  debugger;
   document.getElementById("generateButton").onclick = generateRandomNumber;
 };
 
 function generateRandomNumber() {
-  debugger;
   const minimum = document.getElementById("minimum").value;
   const maximum = document.getElementById("maximum").value;
 
