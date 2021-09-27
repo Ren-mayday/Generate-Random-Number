@@ -19,6 +19,3 @@ function updateDisplayNumber(randomNumber) {
 //how it works debbuger --> it stops the function until the debbuger line and it provides you the whole function or you could indicate brekpoints so you can see your code behaviour until the breakpoint you indicate.
 //finish function
 //value string = number
-
-/* let randomMinimumNumber = Math.floor(Math.random());
-  let randomMaximumNumber = Math.floor(Math.random()); */
